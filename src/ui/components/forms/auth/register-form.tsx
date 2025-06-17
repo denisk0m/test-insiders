@@ -30,6 +30,15 @@ const RegisterForm = () => {
                             />
                             <ErrorMessage name="email" component="div" className="text-red-500 text-sm" />
                         </div>
+                        <div>
+                            <label htmlFor="username" className="block">Username</label>
+                            <Field
+                                name="username"
+                                id="username"
+                                className="w-full p-2 border rounded"
+                            />
+                            <ErrorMessage name="username" component="div" className="text-red-500 text-sm" />
+                        </div>
 
                         <div>
                             <label htmlFor="password" className="block">Password</label>

@@ -13,7 +13,7 @@ export const useRegister = () => {
     const router = useRouter();
 
     const handleRegister = async (
-        values: { email: string; password: string },
+        values: { email: string; password: string,username: string },
         setSubmitting: (isSubmitting: boolean) => void
     ) => {
         try {
@@ -26,7 +26,7 @@ export const useRegister = () => {
 
             if (userCredential) {
                 const userState: IUser = {
-                    username: values.email,
+                    username: values.username,
                     email: values.email,
                     id: userCredential.user.uid,
                     role: UserRolesEnum.VIEWER,

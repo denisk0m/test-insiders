@@ -9,7 +9,7 @@ export const loginValidationSchema = Yup.object({
 
 export const registerValidationSchema = Yup.object({
     email: Yup.string().matches(emailRegex.value,emailRegex.shortDescription).email('Invalid email address').required('Required'),
-    // username: Yup.string().matches(userNameRegex.value,userNameRegex.shortDescription).required('Required'),
+    username: Yup.string().matches(userNameRegex.value,userNameRegex.shortDescription).required('Required'),
     // password: Yup.string().matches(passwordRegex.value, passwordRegex.shortDescription).required('Required'),
     password: Yup.string().required('Required'),
     confirmPassword: Yup.string()
@@ -20,7 +20,7 @@ export const registerValidationSchema = Yup.object({
 
 export const regInitialValues = {
     email: '',
-    // username: '',
+    username: '',
     password: '',
     confirmPassword: '',
 };
