@@ -11,7 +11,7 @@ const ParticipantsMapper: React.FC<Props> = ({list}) => {
     const participants = list.users
     return (
         <div>
-            <h3>Users</h3>
+            <h3 className={"font-bold"}>Users</h3>
             {
                 participants && participants.map(p => <Participant key={p.user} list={list} participant={p}/>)
             }

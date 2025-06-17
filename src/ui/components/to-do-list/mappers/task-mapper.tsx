@@ -15,7 +15,7 @@ const TaskMapper: React.FC<Props> = ({list, tasks}) => {
 
     return (
         <div>
-            <h3>Tasks</h3>
+            <h3 className={"font-bold"}>Tasks</h3>
             {
                 tasks.length ? tasks.map(task => (<Task key={task.id} list={list} task={task}/>))
                     :
