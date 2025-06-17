@@ -1,7 +1,7 @@
 import { useModal } from "@/ui/components/modal/ModalProvider";
 import { deleteList } from "@/firebase/todos";
-import ChangeListName from "@/ui/components/forms/list/ChangeListName";
-import AddNewPerson from "@/ui/components/forms/list/AddNewPerson";
+import ChangeListName from "@/ui/components/forms/list/change-list-name";
+import AddNewPerson from "@/ui/components/forms/list/add-new-person";
 import CreateNewTask from "@/ui/components/forms/task/CreateNewTask";
 import ConfirmInModal from "@/ui/components/modal/ConfirmInModal";
 import useListsStore from "@/store/listsStore";

@@ -6,7 +6,7 @@ import {GoPencil} from "react-icons/go";
 import useUserStore from "@/store/userStore";
 import {useModal} from "@/ui/components/modal/ModalProvider";
 import ConfirmInModal from "@/ui/components/modal/ConfirmInModal";
-import CheckBox from "@/ui/components/default/CheckBox";
+import CheckBox from "@/ui/components/default/check-box";
 import ChangeTask from "@/ui/components/forms/task/ChangeTask";
 import {useTaskHandlers} from "@/ui/components/to-do-list/task/useTaskHandlers";
 

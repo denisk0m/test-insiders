@@ -5,7 +5,7 @@ import useListsStore from "@/store/listsStore";
 import useUserStore from "@/store/userStore";
 import {getListsForUser} from "@/firebase/todos";
 import Link from "next/link";
-import CreateListButton from "@/ui/pages/to-do-lists/CreateListButton";
+import CreateListButton from "@/ui/pages/to-do-lists/create-list-button";
 
 type Props = {}
 

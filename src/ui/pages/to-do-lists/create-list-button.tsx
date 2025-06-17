@@ -1,5 +1,5 @@
 import React from 'react';
-import CreateNewList from "@/ui/components/forms/list/CreateNewList";
+import CreateNewList from "@/ui/components/forms/list/create-new-list";
 import {LiaPlusSquare} from "react-icons/lia";
 import {useModal} from "@/ui/components/modal/ModalProvider";
 

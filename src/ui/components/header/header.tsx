@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import AuthSection from "@/ui/components/header/AuthSection";
+import AuthSection from "@/ui/components/header/auth-section";
 import {useRouter} from "next/navigation";
 
 type Props = {}
